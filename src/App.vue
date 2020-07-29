@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <Search v-bind:maklumats="details"/>
+    <Search class="bg-gray-300" v-bind:maklumats="details"/>
   </div>
 </template>
 <script>
 import Search from './components/Search'
-import './assets/styles/app.css';
+import './assets/styles/index.css';
 
 export default {
   name: 'App',
