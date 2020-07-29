@@ -1,6 +1,6 @@
 <template>
-  <div>
-      <table>
+  <div class="text-center">
+      <table class="table-auto">
           <thead>
               <tr>
                   <th>#</th>
@@ -21,7 +21,12 @@
 
 <script>
 export default {
-    name:"Result"
+    name:"Result",
+    method:[{
+         getGithub() {
+         console.log('3232');   
+        }
+    }],
 }
 </script>
 
